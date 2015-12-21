@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E5E1161C27E849000C4C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5E1151C27E849000C4C9E /* main.m */; };
+		A6E5E1191C27E849000C4C9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5E1181C27E849000C4C9E /* AppDelegate.m */; };
+		A6E5E11C1C27E849000C4C9E /* MineFrame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6E5E11A1C27E849000C4C9E /* MineFrame.xcdatamodeld */; };
+		A6E5E11F1C27E849000C4C9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5E11E1C27E849000C4C9E /* ViewController.m */; };
+		A6E5E1221C27E849000C4C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E5E1201C27E849000C4C9E /* Main.storyboard */; };
+		A6E5E1241C27E849000C4C9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E5E1231C27E849000C4C9E /* Images.xcassets */; };
+		A6E5E1271C27E849000C4C9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E5E1251C27E849000C4C9E /* LaunchScreen.xib */; };
+		A6E5E1331C27E849000C4C9E /* MineFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E5E1321C27E849000C4C9E /* MineFrameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6E5E12D1C27E849000C4C9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E5E1081C27E849000C4C9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E5E10F1C27E849000C4C9E;
+			remoteInfo = MineFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6E5E1101C27E849000C4C9E /* MineFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E5E1141C27E849000C4C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E5E1151C27E849000C4C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E5E1171C27E849000C4C9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6E5E1181C27E849000C4C9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6E5E11B1C27E849000C4C9E /* MineFrame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MineFrame.xcdatamodel; sourceTree = "<group>"; };
+		A6E5E11D1C27E849000C4C9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6E5E11E1C27E849000C4C9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6E5E1211C27E849000C4C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6E5E1231C27E849000C4C9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6E5E1261C27E849000C4C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A6E5E12C1C27E849000C4C9E /* MineFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E5E1311C27E849000C4C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E5E1321C27E849000C4C9E /* MineFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineFrameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E5E10D1C27E849000C4C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E5E1291C27E849000C4C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E5E1071C27E849000C4C9E = {
+			isa = PBXGroup;
+			children = (
+				A6E5E1121C27E849000C4C9E /* MineFrame */,
+				A6E5E12F1C27E849000C4C9E /* MineFrameTests */,
+				A6E5E1111C27E849000C4C9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E5E1111C27E849000C4C9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5E1101C27E849000C4C9E /* MineFrame.app */,
+				A6E5E12C1C27E849000C4C9E /* MineFrameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E5E1121C27E849000C4C9E /* MineFrame */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5E1171C27E849000C4C9E /* AppDelegate.h */,
+				A6E5E1181C27E849000C4C9E /* AppDelegate.m */,
+				A6E5E11D1C27E849000C4C9E /* ViewController.h */,
+				A6E5E11E1C27E849000C4C9E /* ViewController.m */,
+				A6E5E1201C27E849000C4C9E /* Main.storyboard */,
+				A6E5E1231C27E849000C4C9E /* Images.xcassets */,
+				A6E5E1251C27E849000C4C9E /* LaunchScreen.xib */,
+				A6E5E11A1C27E849000C4C9E /* MineFrame.xcdatamodeld */,
+				A6E5E1131C27E849000C4C9E /* Supporting Files */,
+			);
+			path = MineFrame;
+			sourceTree = "<group>";
+		};
+		A6E5E1131C27E849000C4C9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5E1141C27E849000C4C9E /* Info.plist */,
+				A6E5E1151C27E849000C4C9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6E5E12F1C27E849000C4C9E /* MineFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5E1321C27E849000C4C9E /* MineFrameTests.m */,
+				A6E5E1301C27E849000C4C9E /* Supporting Files */,
+			);
+			path = MineFrameTests;
+			sourceTree = "<group>";
+		};
+		A6E5E1301C27E849000C4C9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5E1311C27E849000C4C9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E5E10F1C27E849000C4C9E /* MineFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E5E1361C27E849000C4C9E /* Build configuration list for PBXNativeTarget "MineFrame" */;
+			buildPhases = (
+				A6E5E10C1C27E849000C4C9E /* Sources */,
+				A6E5E10D1C27E849000C4C9E /* Frameworks */,
+				A6E5E10E1C27E849000C4C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MineFrame;
+			productName = MineFrame;
+			productReference = A6E5E1101C27E849000C4C9E /* MineFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6E5E12B1C27E849000C4C9E /* MineFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E5E1391C27E849000C4C9E /* Build configuration list for PBXNativeTarget "MineFrameTests" */;
+			buildPhases = (
+				A6E5E1281C27E849000C4C9E /* Sources */,
+				A6E5E1291C27E849000C4C9E /* Frameworks */,
+				A6E5E12A1C27E849000C4C9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E5E12E1C27E849000C4C9E /* PBXTargetDependency */,
+			);
+			name = MineFrameTests;
+			productName = MineFrameTests;
+			productReference = A6E5E12C1C27E849000C4C9E /* MineFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E5E1081C27E849000C4C9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.lhs;
+				TargetAttributes = {
+					A6E5E10F1C27E849000C4C9E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A6E5E12B1C27E849000C4C9E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A6E5E10F1C27E849000C4C9E;
+					};
+				};
+			};
+			buildConfigurationList = A6E5E10B1C27E849000C4C9E /* Build configuration list for PBXProject "MineFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E5E1071C27E849000C4C9E;
+			productRefGroup = A6E5E1111C27E849000C4C9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E5E10F1C27E849000C4C9E /* MineFrame */,
+				A6E5E12B1C27E849000C4C9E /* MineFrameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E5E10E1C27E849000C4C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E5E1221C27E849000C4C9E /* Main.storyboard in Resources */,
+				A6E5E1271C27E849000C4C9E /* LaunchScreen.xib in Resources */,
+				A6E5E1241C27E849000C4C9E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E5E12A1C27E849000C4C9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E5E10C1C27E849000C4C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E5E1191C27E849000C4C9E /* AppDelegate.m in Sources */,
+				A6E5E1161C27E849000C4C9E /* main.m in Sources */,
+				A6E5E11F1C27E849000C4C9E /* ViewController.m in Sources */,
+				A6E5E11C1C27E849000C4C9E /* MineFrame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E5E1281C27E849000C4C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E5E1331C27E849000C4C9E /* MineFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6E5E12E1C27E849000C4C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E5E10F1C27E849000C4C9E /* MineFrame */;
+			targetProxy = A6E5E12D1C27E849000C4C9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6E5E1201C27E849000C4C9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E5E1211C27E849000C4C9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6E5E1251C27E849000C4C9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E5E1261C27E849000C4C9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E5E1341C27E849000C4C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6E5E1351C27E849000C4C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E5E1371C27E849000C4C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6E5E1381C27E849000C4C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MineFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6E5E13A1C27E849000C4C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineFrame.app/MineFrame";
+			};
+			name = Debug;
+		};
+		A6E5E13B1C27E849000C4C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MineFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MineFrame.app/MineFrame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E5E10B1C27E849000C4C9E /* Build configuration list for PBXProject "MineFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E5E1341C27E849000C4C9E /* Debug */,
+				A6E5E1351C27E849000C4C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E5E1361C27E849000C4C9E /* Build configuration list for PBXNativeTarget "MineFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E5E1371C27E849000C4C9E /* Debug */,
+				A6E5E1381C27E849000C4C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6E5E1391C27E849000C4C9E /* Build configuration list for PBXNativeTarget "MineFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E5E13A1C27E849000C4C9E /* Debug */,
+				A6E5E13B1C27E849000C4C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6E5E11A1C27E849000C4C9E /* MineFrame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6E5E11B1C27E849000C4C9E /* MineFrame.xcdatamodel */,
+			);
+			currentVersion = A6E5E11B1C27E849000C4C9E /* MineFrame.xcdatamodel */;
+			path = MineFrame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6E5E1081C27E849000C4C9E /* Project object */;
+}
